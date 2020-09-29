@@ -1,0 +1,404 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.firstbank{
+    height: 900px;
+    width: 100%;
+    background: rgba(56, 34, 155, 0.767);
+    padding: 30px 14px 0px;
+    background-size: contain;
+    border-bottom-left-radius: 370px;
+    background-color: rgb(79, 76, 236);
+    background: -webkit-linear-gradient(180deg, rgb(139, 97, 206) 5%, rgb(85, 68, 238) 75%);
+}
+.arsenal{
+    float: left;
+    width: 50%;
+    height: 100px;
+    margin-top: -2px;
+}
+.arsenal .respect{
+    font-size: 34px;
+    font-weight: 500;
+    color: rgba(250, 250, 250, 0.925);
+}
+.respect .zero{
+    color: rgb(25, 189, 181);
+    font-weight: 500;
+    font-size: 40px;
+}
+.arsenal li{
+    margin-right: 50px;
+}
+.bayern{
+    float: right;
+    width: 30%;
+    height: 100px;
+    margin-top: 5px;
+}
+.a-bank li{
+    list-style: none;
+    display: inline;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.corner .login{
+    color: #fff;
+    border-color: rgb(124, 73, 207);
+    background-color: rgb(148, 107, 245);
+    border-radius: 7px;
+    border-width: 0px;
+    border-style: hidden;
+    height: 59px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 22px 37px;
+    margin-right: 5px;
+}
+.corner .request{
+    color: #fff;
+    border-color: rgb(176, 152, 230);
+    background-color: rgb(25, 189, 181);
+    border-radius: 7px;
+    border-width: 0px;
+    border-style: hidden;
+    height: 59px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 22px 37px;
+}
+.b-bank{
+    height: 300px;
+    margin-top: 150px;
+}
+.b-bank h3{
+    color: #fff;
+    font-size: 78px;
+    font-weight: 500;
+    text-align: center;
+    padding:  0px 0px;
+    letter-spacing: 0.05px;
+}
+.b-bank h5{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -50px;
+}
+.c-bank{
+    background-color: #fff;
+    text-align: center;
+    border-color: rgba(192, 190, 190, 0.589);
+    border-radius: 60px 0px 60px 60px;
+    border-style: solid;
+    border-width: 0px;    
+    box-shadow: 0 1px 150px rgba(189, 185, 185, 0.356);
+    height: 660px;
+    margin: 70px 190px;
+    padding: 7px 70px;
+}
+.c-bank h4{
+    color: rgb(49, 48, 48);
+    font-size: 32px;
+    font-weight: 500;
+}
+/* .aedc{
+    float: left;
+    display: flex;
+    padding: 20px 20px;
+}
+.bedc{
+    float: right;
+    display: flex;
+    padding: 20px 20px;
+}
+.cedc{
+    float: left;
+    display: flex;
+    padding: 20px 20px;
+}
+.dedc{
+    float: right;
+    display: flex;
+    padding: 20px 20px;
+}
+.eedc{
+    float: left;
+    display: flex;
+    padding: 20px 20px;
+}
+.fedc{
+    float: right;
+    display: flex;
+    padding: 20px 20px;
+} */
+form{
+    font-size: 70px;
+    margin: auto;
+    width: 100%;
+    margin-top: -35px;
+}
+.aedc{
+    float: left;
+    height:  auto;
+    width: 50%;
+}
+.bedc{
+    height: auto;
+}
+input[type=text]{
+    border-radius: 6px;
+    border-color: rgb(222, 223, 223);
+    border-style: solid;
+    border-width: thin;
+    height: 70px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 180px 5px 15px ;
+    text-align: left;
+}
+.c-bank h5{
+    font-size: 11px;
+    font-weight: 600;
+    font-stretch: narrower;
+    padding: 13px 0px 0px 13px;
+    text-align: left;
+    color: rgb(121, 120, 120);
+}
+.c-bank .teal{
+    color: rgb(25, 189, 181);
+}
+.c-bank .click{
+    color: #fff;
+    border-color: rgb(25, 189, 181);
+    background-color: rgb(25, 189, 181);
+    border-radius: 8px;
+    height: 68px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 20px 160px;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 22px;
+}
+
+
+.sterlingbank{
+    margin-top: 550px;
+    background-color: #fff;
+    padding: 20px 100px;
+}
+.sterlingbank .chelsea{
+    background-color: #fff;
+    border-color: rgba(99, 98, 98, 0.075);
+    border-style: solid;
+    border-radius: 20px;
+    border-width: thin;
+    box-shadow: 0 2px 30px rgba(155, 152, 152, 0.356);
+    height: 450px;
+    margin-bottom: 170px;
+}
+.chelsea .hugeboss{
+    float: left;
+    width: 30%;
+    margin-top: -1px;
+}
+.chelsea .payman{
+    float: right;
+    width: 65%;
+}
+.payman h4{
+    font-size: 20px;
+    padding: 60px 0px 0px 5px;
+    font-weight: 600;
+    color: rgb(27, 43, 43);
+
+}
+.payman h5{
+    font-size: 16px;
+    color: rgb(82, 97, 97);
+    font-weight: 500;
+}
+.payman h6{
+    font-size: 16px;
+    color: rgb(82, 97, 97);
+    font-weight: 500;
+    font-style: italic;
+}
+.sterlingbank .dortmund h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 500;
+    color: rgb(27, 43, 43);
+    margin-bottom: 200px;
+}
+.everton{
+    margin-bottom: 350px;
+    padding: 10px 100px;
+}
+.everton .fulham{
+    display: inline;
+    color: rgb(68, 85, 85);
+    font-weight: 300;
+}
+.fulham .text-1{
+    float: left;
+    margin-right: 150px;
+    font-size: 18px;
+    text-align: center;
+}
+.fulham .text-2{
+    float: left;
+    margin-right: 150px;
+    font-size: 18px;
+    text-align: center;
+}
+.fulham .text-3{
+    float: right;
+    font-size: 18px;
+    text-align: center;
+}
+.everton .leeds{
+    margin-top: 290px;
+    color: rgb(68, 85, 85);
+    font-weight: 300;
+}
+.leeds .text-4{
+    float: left;
+    margin-right: 150px;
+    font-size: 18px;
+    text-align: center;
+}
+.leeds .text-5{
+    float: left;
+    margin-right: 150px;
+    font-size: 18px;
+    text-align: center;
+}
+.leeds .text-6{
+    float: right;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.wemabank{
+    height: 1130px;
+    width: 100%;
+    background-color: rgb(20, 22, 49);
+    background-size: contain;
+    padding: 170px 100px 100px 100px;
+    border-radius: 0px 600px 0px 0px;
+}
+.wemabank .fiorentina h2{
+    color: #fff;
+    font-size: 68px;
+    font-weight: 600;
+}
+.fiorentina  .ready222{
+    margin-top: -30px;
+}
+.fiorentina .click{
+    float: right;
+    margin-top: -148px;
+    color: #fff;
+    border-color: rgb(25, 189, 181);
+    background-color: rgb(25, 189, 181);
+    border-radius: 8px;
+    height: 69px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 24px 60px;
+    border-style: solid;
+    border-width: thin;
+}
+.fiorentina h5{
+    color: #fff;
+    font-size: 16px;
+    margin-top: -20px;
+    margin-bottom: 150px;
+}
+.juventus{
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.juventus .tottenham{
+    float: left;
+}
+.liverpool{
+    margin-top: 150px;
+}
+.liverpool .respect{
+    font-size: 35px;
+    font-weight: 500;
+    color: rgba(250, 250, 250, 0.925);
+}
+.liverpool .respect .zero{
+    color: rgb(25, 189, 181);
+    font-weight: 500;
+    font-size: 40px;
+}
+.liverpool h5{
+    color: rgb(98, 117, 117);
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.manchester h5{
+    color: rgb(98, 117, 117);
+    font-size: 15px;
+    font-weight: 700;
+}
+.juventus .wolves{
+    float: left;
+    margin-top: 138px;
+    display: flex;
+    width: 50%;
+    height: 100px;
+    text-align: inherit;
+    margin-left: 120px;
+}
+.wolves li{
+    color: rgb(98, 117, 117);
+    float: left;
+    text-transform: none;
+    width: 200%;
+    height: 60px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 700;
+    font-stretch: extra-expanded;
+}.wolves .benfica{
+    margin-right: 180px;
+}
+.wolves .porto{
+    margin-right: 150px;
+}
+.wolves h5{
+    margin-left: 40px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+}
+.sporting h4{
+    margin-left: 38px;
+    color: rgb(25, 189, 189);
+    font-size: 18px;
+    margin-top: 100px;
+}
+.sporting .hart{
+    font-size: 20px;
+}

@@ -35,6 +35,9 @@ body{
 .arsenal li{
     margin-right: 50px;
 }
+.arsenal li:hover{
+    color: rgb(25, 189, 181);
+}
 .bayern{
     float: right;
     width: 30%;
@@ -179,7 +182,7 @@ input[type=text]{
     color: #fff;
     border-color: rgb(25, 189, 181);
     background-color: rgb(25, 189, 181);
-    border-radius: 8px;
+    border-radius: 10px;
     height: 68px;
     font-size: 17px;
     font-weight: 600;
@@ -187,6 +190,9 @@ input[type=text]{
     border-style: solid;
     border-width: thin;
     margin-top: 22px;
+}
+.c-bank .click:hover{
+    box-shadow: 0 10px 25px -8px rgb(70, 219, 212);
 }
 
 
@@ -290,7 +296,7 @@ input[type=text]{
 
 
 .wemabank{
-    height: 1130px;
+    height: 1120px;
     width: 100%;
     background-color: rgb(20, 22, 49);
     background-size: contain;
@@ -313,17 +319,20 @@ input[type=text]{
     background-color: rgb(25, 189, 181);
     border-radius: 8px;
     height: 69px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
-    padding: 24px 60px;
+    padding: 20px 56px;
     border-style: solid;
     border-width: thin;
+}
+.fiorentina .click:hover{
+    box-shadow: 0 12px 8px -10px rgb(70, 219, 212);
 }
 .fiorentina h5{
     color: #fff;
     font-size: 16px;
     margin-top: -20px;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 .juventus{
     width: 100%;
@@ -338,59 +347,73 @@ input[type=text]{
     float: left;
 }
 .liverpool{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .liverpool .respect{
     font-size: 35px;
-    font-weight: 500;
+    font-weight: 400;
     color: rgba(250, 250, 250, 0.925);
 }
 .liverpool .respect .zero{
     color: rgb(25, 189, 181);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 40px;
 }
 .liverpool h5{
     color: rgb(98, 117, 117);
     font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 50px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: -15px;
+}
+.liverpool .awe12{
+    color: rgb(25, 189, 189);
 }
 .manchester h5{
     color: rgb(98, 117, 117);
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
+}
+.manchester h5:hover{
+    color: rgb(25, 189, 189);
 }
 .juventus .wolves{
     float: left;
-    margin-top: 138px;
+    margin-top: -255px;
     display: flex;
-    width: 50%;
+    width: 69%;
     height: 100px;
     text-align: inherit;
-    margin-left: 120px;
+    margin-left: 350px;
 }
 .wolves li{
     color: rgb(98, 117, 117);
     float: left;
     text-transform: none;
-    width: 200%;
-    height: 60px;
+    width: 100%;
+    height: 40px;
     list-style: none;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 500;
     font-stretch: extra-expanded;
-}.wolves .benfica{
-    margin-right: 180px;
+}
+.benfica li:hover{
+    color: rgb(25, 189, 189);
+}
+.porto li:hover{
+    color: rgb(25, 189, 189);
+}
+.wolves .benfica{
+    margin-right: 70px;
 }
 .wolves .porto{
-    margin-right: 150px;
+    margin-right: 70px;
 }
 .wolves h5{
     margin-left: 40px;
     color: #fff;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     width: 100%;
 }
 .sporting h4{
@@ -398,7 +421,37 @@ input[type=text]{
     color: rgb(25, 189, 189);
     font-size: 18px;
     margin-top: 100px;
+    font-weight: 500;
 }
 .sporting .hart{
-    font-size: 20px;
+    font-size: 18px;
+}
+.s-media li{
+    width: 20%;
+    font-size: 22px;
+    margin-right: 15px;
+}
+.s-media li:hover{
+    color: rgb(25, 189, 189);
+}
+.wemabank .itscomment{
+    background-color: rgb(25, 189, 189);
+    border-color: rgb(25, 189, 189);
+    width: 5%;
+    height: 65px;
+    margin-left: 87%;
+    margin-top: 150px;
+    border-radius: 2000px;
+    padding-top: 15px;
+    align-content: center;
+    position: fixed;
+    bottom: 0;
+}
+.itscomment strong{
+    color: #fff;
+    padding: 20px 30px;
+    margin-top: 120px;
+    margin-right: 40px;
+    padding: 90px 17px;
+    
 }
